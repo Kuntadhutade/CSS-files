@@ -1,0 +1,24 @@
+.trans{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    transition: width, height 2s;
+    transition-delay: 2s;
+    transition-duration: 10s;
+}
+
+.trans:hover{
+    width: 500px;
+    height: 500px;
+}
+
+.transform{
+    height: 100px;
+    width: 100px;
+}
+
+.transform img{
+    height: 100px;
+    width: 140px;
+    transition: width 2s, height 2s, transform 2s;
+}

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+</head>
+<style>
+    body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500%;
+    height: 100%;
+    
+}
+
+.login{
+    background: linear-gradient(135deg,#6e4ef5,#da4ef5);
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 550px;
+    padding: 50px;
+}
+
+.login-box {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+    height: 450px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+
+.login-box h2{
+    margin-bottom: 50px;
+    color: #333;
+    border-bottom: 2px solid #ccc; 
+    padding: 40px;
+}
+
+.input-box{
+    margin-bottom: 30px;
+    position: relative;
+    /* margin: 10px; */
+}
+
+.input-box input{
+    width: 80%;
+    padding: 6px;
+    border: none;
+    border-bottom: 3px solid #ccc; 
+    outline: none;
+    border-radius: 5px;
+    color: #333;
+    transition: 0.3s;
+    background: none;
+    font-size: 14px;
+    cursor: pointer;
+    /* margin: 10px; */
+    /* margin-bottom: 20px; */
+}
+
+.input-box input:focus{
+   border-bottom: 2px solid #6e4ef5; 
+}
+.forgot{
+    text-align: left;
+    margin-bottom: 30px;
+    padding-left: 40px;
+}
+
+.forgot a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #6e4ef5;
+}
+
+.login-btn{
+    width: 80%;
+    padding: 10px;
+    /* border: none; */
+    border-radius: 15px;
+    background: #e6e4ea;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.login-btn:hover{
+    background: #563dc7;
+}
+
+.signup-link{
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.signup-link a{
+    text-decoration: none;
+    color: #6e4ef5;
+}
+
+
+
+
+
+</style>
+
+<body>
+    <div class="login-container">
+        <div class="login">
+        <div class="login-box">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <input type="text" placeholder="Username" required>
+                 </div>
+
+                 <div class="input-box">
+                    <input type="Password" placeholder="Password" required>
+                 </div>
+
+                 <div class="forgot">
+                    <a href="#">Forget Password?</a>    
+                 </div>
+
+                 <button type="submit" class="login-btn">Login</button>
+
+                 <div class="signup-link">Not a Member?
+                    <a href="#">Signup</a>
+                 </div>
+
+
+            </form>
+
+        </div>
+    </div>
+    </div>
+</body>
+</html>

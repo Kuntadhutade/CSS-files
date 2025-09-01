@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="QuizSec.css">
+</head>
+<style>
+    .clearfix {
+    display: flex;
+    width: 400px;
+    height: 80px;
+    font-size: larger;
+    background-color:wieght;
+  }
+  .child {
+    margin: 10px;
+  }
+  
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;  
+}
+
+.child {
+  margin: 10px;
+  background-color: white;
+  float: left;  
+}
+
+.child:nth-child(2) {
+  float: right; 
+}
+
+</style>
+<body>
+    <div class="fixcontainer">
+    <div class="clearfix">
+        <div class="child"> 1st Item </div>
+        <div class="child"> 2nd Item </div>
+        <div class="child"> 3rd Item </div>
+    </div>
+    </div>      
+</body>
+</html> 

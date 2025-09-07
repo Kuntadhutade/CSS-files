@@ -1,0 +1,72 @@
+.myDiv{
+   background-color: brown;
+
+   border: 5px solid black;
+   text-align: center;
+  
+}
+
+
+.main{
+    background-color: red;
+    border: 7px solid black;
+    width: 1000px;
+    height: 600px;
+}
+
+.row1{
+    width: 1000px;
+    height: 100px;
+    background-color: palevioletred;
+    color: #fff;
+    font-size: 2em;
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.row2{
+    background-color: yellowgreen;
+    height:40px;
+    width: 1000px;
+    
+    /* float: left; */
+}
+
+.row2c1{
+    width: 200px;
+    height: 40px;
+    float: left;
+    /* display: flex; */
+}
+
+.row3{
+    width: 1000px;
+    height: 200px;
+    background-color: aqua;
+}
+
+.row3left{
+    width: 250px;
+    height: 200px;
+    float: left;
+    background-color: hotpink;
+
+}
+
+
+.row3leftr{
+    width:250px;
+    height: 40px;
+    background-color: lightblue;
+}
+
+
+.row3right{
+    width: 750px;
+    height: 200px;
+    float: left;
+    background-color: plum;
+}
+

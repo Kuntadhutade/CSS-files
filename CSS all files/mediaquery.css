@@ -1,0 +1,35 @@
+.media{
+    width: 70%;
+    height: 80px;
+    display:flex;
+}
+
+.media1{
+    width: 70%;
+    height: 80px;
+    color:aqua;
+    background-color: aquamarine;
+}
+
+.media2{
+    width: 50%;
+    color: blueviolet;
+    background-color:rgb(154, 205, 50);
+}
+
+
+@media screen and (max-width:480px){
+ 
+.media{
+ display: block;
+}
+
+.media1{
+    width: 300%;
+    /* visibility: hidden; */
+}
+.media2{
+    width: 300%;
+}
+
+}

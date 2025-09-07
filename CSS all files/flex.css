@@ -1,0 +1,115 @@
+/* *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box ;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height:5vh;
+}
+header,footer{
+    background-color: #8cd3c5;
+    text-align:center;
+    padding: 20px;
+    font-size: small;
+}
+
+.main{
+    display:flex;
+    flex: 1;
+}
+
+aside{
+    background-color: #63b2a2;
+    flex: 1;
+    padding: 110px;
+    text-align: center;
+    font-size: small;
+}
+.content{
+    background-color: #f28b82;
+    flex: 3;
+    padding: 20px;
+
+}
+
+.article{
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+
+    
+
+}
+.images{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.images div{
+    background-color: #e6e6e6;
+    width: 100px;
+    height:100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size
+    : 1 rem;
+} */
+
+
+
+/* position */
+.p1{
+    /* position: static; */
+    /* position: absolute; */
+    position: relative;
+    border: 1px solid blue;
+    background-color: blueviolet;
+    /* top: 50px; */
+    
+    
+}
+
+.p2{
+    background-color: greenyellow;
+    border: 1px solid blue;
+    position:static;
+    
+}
+.p3{
+    position: relative;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+.psudo.hover{
+    background-color: brown;
+}
+a:visted{
+    color:red;
+}
+
+a:active{
+    color: blueviolet;
+}
+
+
+p:first-child{
+    color: aqua;
+}

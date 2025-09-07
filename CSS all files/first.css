@@ -1,0 +1,59 @@
+
+  /* .bg-color{
+    background-color: aquamarine;
+  }  
+
+    .bg-img{
+        background-image:url(images/image-generator-freepik-6.jpg);
+        /* background-repeat: round; */
+        /* background-repeat: repeat; */
+        /* background-repeat: space; */
+        /* background-size: 100px; */
+        /* background-repeat: inherit; */
+        /* background-repeat: initial; */
+
+    /* }   */
+    /* body{
+      background-image:url(img/image-generator-freepik-6.jpg);
+      
+      background-size: contain;
+    }  */ 
+
+    /* Flex Property */
+
+    /* .div-one{
+      border: 1px solid yellow;
+    }
+    .div-two{
+      border: 1px solid pink;
+    }
+    .div-three{
+      border: 1px solid red
+    }
+    .main-div{
+     
+      display:flex;
+      border: 2px  blue solid;
+      justify-content: center;
+      
+    } */
+
+
+    /* z-index */
+
+   .box1{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    z-index: 1;
+    background-color: brown;
+   } 
+
+
+   .box2{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    z-index: 1;
+    background-color: rosybrown;
+   } 

@@ -1,0 +1,85 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+  }
+
+  .controls {
+    margin-bottom: 20px;
+  }
+
+  button {
+    padding: 10px 30px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .box {
+    padding: 20px 40px;
+    background-color: #4caf50;
+    color: blue;
+    font-size: 20px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+
+  .visible {
+    opacity: 1;
+  }
+
+  .hidden {
+    opacity: 0;
+  }
+
+
+
+
+         /* annimation circle */
+  
+
+  .glow-circle {
+    width: 200px;
+    height: 200px;
+    background-color: #1e1e1e;
+    border-radius: 50%; 
+    position: relative;
+    z-index: 1;
+  }
+
+  .glow-circle::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(45deg, #0f0, rgb(0, 38, 255), rgb(255, 0, 0), #ff0, #0f0);
+    background-size: 300%;
+    animation: rotate-glow 4s linear infinite;
+    border-radius: 50%;
+    filter: blur(10px);
+    z-index: -1;
+  }
+
+  @keyframes rotate-glow {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 400% 0;
+    }
+  }
+
+
+
+         /* mind remember */
+
+  /* ::before -  hai glow effect circle chya baher tayar karte 
+  top:-4px -  glow thoda baher yeto 
+  background-size:400% - gradiang mote karto mag te firu shakte 
+  filter:blur(10px) - glow halkasa dusar and soft karto
+  content:" " - ::before disnaysati garjeche ahe (mag to text aso kiva naso) */

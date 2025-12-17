@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model</title>
+
+    <style>
+/* #span1{
+    height: 30px;   this does'nt work because inline elements cannot have work
+
+    width: 35px;
+} */
+
+
+
+#div1{
+    height: 80px;
+    width: 170px;
+    padding: 20px;
+    background-color: aqua;
+    border: 2px solid red;
+    /* margin: 100px; */
+    /* margin-top: 23px;
+    margin-bottom: 45px; */
+    margin:0px 45px ;
+    box-sizing: content-box;
+}
+
+
+.card{
+    width: 400px;
+    padding: 20px;
+    border: 12px solid salmon;
+    /* box-sizing: border-box; */
+    box-sizing: content-box;
+}
+
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Box Model</h1>
+        <div class="card">
+card1
+        </div>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero at repudiandae, illo exercitationem natus
+            reiciendis voluptatum nesciunt nihil, debitis error est voluptas corrupti suscipit eos?</p>
+
+        <span id="span1">span 1</span>
+        <span id="span2">span 1</span>
+
+        <div id="div1">
+     Div1
+        </div>
+    </div>
+</body>
+
+</html>

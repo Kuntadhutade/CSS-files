@@ -1,0 +1,44 @@
+<!-- 4) Using HTML, CSS create display a text on top of an image using an overlay ?  -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Forth</title>
+    <style>
+        :root{
+            --clr-text: white;
+            --clr-backg: rgba(0, 0, 0, 0.603);
+        }
+        img{
+            width: 25%;
+        }
+       .hello{
+        height: 50px;
+        width: 24%;
+        color: var(--clr-text);
+        background-color: var(--clr-backg);
+        position: absolute;
+        top: 50px;
+        left: 12px;
+       }
+       h1{
+        text-align: center;
+        position: relative;
+        bottom: 10px;
+       }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="/image/flower2.jpg" alt="">
+        <div class="hello">
+            <h1>Hello, World</h1>
+        </div>
+    </div>
+
+</body>
+</html>
